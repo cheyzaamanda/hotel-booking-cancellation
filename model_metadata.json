@@ -1,0 +1,39 @@
+{
+  "model_name": "RF (Tuned)",
+  "model_class": "RandomForestClassifier",
+  "n_features": 20,
+  "feature_names": [
+    "deposit_type_enc",
+    "country_enc",
+    "lead_time",
+    "potential_revenue",
+    "adr",
+    "market_segment_enc",
+    "adr_per_guest",
+    "total_of_special_requests",
+    "lead_time_cat_enc",
+    "room_type_changed",
+    "previous_cancellations",
+    "has_prev_cancel",
+    "required_car_parking_spaces",
+    "customer_type_enc",
+    "booking_changes",
+    "distribution_channel_enc",
+    "assigned_room_type_enc",
+    "arrival_date_year",
+    "total_nights",
+    "is_direct_booking"
+  ],
+  "target": "is_canceled",
+  "classes": [
+    "Not Canceled (0)",
+    "Canceled (1)"
+  ],
+  "metrics": {
+    "accuracy": 0.8732,
+    "f1": 0.8208,
+    "roc_auc": 0.9466,
+    "recall": 0.7829,
+    "precision": 0.8625
+  }
+}
