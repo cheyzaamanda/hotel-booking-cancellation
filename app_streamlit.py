@@ -69,8 +69,7 @@ with st.sidebar:
          "📊 Perbandingan Model",
          "🔍 Feature Importance",
          "📈 Interactive EDA",
-         "🔮 Prediksi Booking",
-         "📖 Tutorial Deployment"],
+         "🔮 Prediksi Booking"],
         label_visibility="collapsed"
     )
     st.markdown("---")
